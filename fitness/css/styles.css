@@ -200,6 +200,14 @@ footer p a {
     #exercises dd {
         padding: 0.5% 1% 2% 0;
 }
+
+    .tel-num {
+        font-size: 1.25em;
+    }
+    .map {
+        width: 600px;
+        height: 450px;
+    }
 }
 
 /* #exercises {
