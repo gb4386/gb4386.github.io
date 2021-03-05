@@ -88,6 +88,26 @@ main {
     text-shadow: 5px 5px 8px #ccc;
 }
 
+article {
+    padding: 2%;
+}
+
+article h3 {
+    text-align: center;
+}
+
+article img {
+    margin: 0 auto;
+}
+
+article ul {
+    margin-left: 10%;
+}
+
+article:nth-of-type(2) {
+    background-color: rgba(204, 204, 204, 0.3);
+}
+
 .tel-link {
     background-color: #404040;
     padding: 2%;
@@ -218,6 +238,27 @@ footer p a {
         grid-gap: 20px;
     }
 
+    .pic-text {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    aside {
+        text-align: center;
+        font-size: 1.25em;
+        font-style: italic;
+        font-weight: bold;
+        padding: 2%;
+        background-color: rgba(204, 204, 204, 0.5);
+        box-shadow: 5px 5px 8px #000;
+        text-shadow: 5px 5px 5px #b3b3b3;
+        border-radius: 0 15px;
+    }
+
+    .grid-item4 {
+        grid-column: 1 / span 3;
+    }
+
     #exercises {
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
@@ -279,6 +320,10 @@ footer p a {
 
     main h1 {
         font-size: 1.8em;
+    }
+
+    article h3 {
+        font-size: 1.75em;
     }
 
     .pic-text {
