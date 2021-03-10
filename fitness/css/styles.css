@@ -340,6 +340,12 @@ footer p a {
     tr:nth-child(odd) {
         background-color: #ccc;
     }
+
+    /* Tablet Viewport: Style rule for form element */
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
 }
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1015px), print {
@@ -406,6 +412,21 @@ footer p a {
 
     #exercises {
         clear: left;
+    }
+
+    /* Desktop Viewport: Style rules for form elements */
+    form {
+        width: auto;
+    }    
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+    }
+
+    .btn {
+        grid-column: 1 / span 3;
     }
 }
 
